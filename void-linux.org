@@ -2,50 +2,50 @@
 #+DATE: <2019-08-06 Tue>
 #+STARTUP: showall
 
-* Introduction
-There are 2 obvious areas of Void Linux that distinguishes it from
-other Linux distributions: =runit=, its process management daemon and
-=xbps=, its package manager.
+* xbps (X Binary Package System)
 
-Over time, I will also cover other areas, but these are the obvious
-places to familiarize oneself for Void Linux.
-
-* xbps
-
-** Installing a package
--S Synchronize remote repository index files
+** How to install a package?
+=-S= Synchronize remote repository index files
 
 #+BEGIN_SRC sh
 xpbs-install -S
 #+END_SRC
 
-** Uninstalling a package
+** How to uninstall a package?
 #+BEGIN_SRC sh
-xbps-remove <package>
+xbps-remove <package name>
 #+END_SRC
 
-** Uninstalling a package and its dependencies that don't depend on it
--R recursively remove package and alls its dependencies
+** How to uninstall a package and all its dependencies (that are not dependencies of other packages)?
+=-R= Recursively remove package and alls its dependencies
+
 #+BEGIN_SRC sh
 xbps-remove -R <package>
 #+END_SRC
 
-** Searching for a package
--R looks in repository
--s search for pattern
+** How to search for a package in the repository
+=-R= looks in Repository as opposed to the locally installed packages
+=-s= search for pattern
 #+BEGIN_SRC sh
 xbps-query -Rs <query string>
 #+END_SRC
 
-** Reconfiguring a package
+** How to list installed packages?
+=-l=
 #+BEGIN_SRC sh
-xbps-reconfigure <package>
+xbps-query -l
+#+END_SRC
+
+** How to reconfigure a package (even if it had already been configured)?
+#+BEGIN_SRC sh
+xbps-reconfigure -f <package>
 #+END_SRC
 
 ** Updating the system
+=-S= Synchronize the repository
+=-u= Update the system
 #+BEGIN_SRC sh
 xbps-install -Su
 #+END_SRC
-   
 
 * runit
