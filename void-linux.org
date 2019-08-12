@@ -13,7 +13,7 @@ xpbs-install -S
 
 ** How to uninstall a package?
 #+BEGIN_SRC sh
-xbps-remove <package name>
+xbps-remove <package>
 #+END_SRC
 
 ** How to uninstall a package and all its dependencies (that are not dependencies of other packages)?
@@ -31,12 +31,13 @@ xbps-query -Rs <query string>
 #+END_SRC
 
 ** How to list installed packages?
-=-l=
+=-l= Lists registered packages in the package database (pkgdb)
 #+BEGIN_SRC sh
 xbps-query -l
 #+END_SRC
 
 ** How to reconfigure a package (even if it had already been configured)?
+=-f= By default, it will only reconfigure a package if it hasn't been configured. -f forces reconfiguration.
 #+BEGIN_SRC sh
 xbps-reconfigure -f <package>
 #+END_SRC
