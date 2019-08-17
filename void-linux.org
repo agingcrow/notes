@@ -50,3 +50,5 @@ xbps-install -Su
 #+END_SRC
 
 * runit
+* Fixing hibernate issues with initramfs
+It seems that 

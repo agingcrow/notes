@@ -1,0 +1,76 @@
+#+TITLE: Reference
+#+DATE: <2019-08-10 Sat>
+
+* Mounting HFS+ volume on Linux
+  https://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os 
+
+  #+BEGIN_SRC sh
+sudo mount -t hfsplus -o force,rw /dev/sdb2 /mnt/seagate/
+  #+END_SRC
+
+* setuid
+  Run the program as if you are the owner
+
+  find / -perm -0400 -ls
+
+  List all the files that have suid
+
+* tcpdump
+
+** Record traffic
+   #+BEGIN_EXAMPLE sh
+   tcpdump port <port> -w <filename>.pcap
+   #+END_EXAMPLE
+
+** Read pcap file from recorded traffic
+   #+BEGIN_EXAMPLE sh
+   tcpdump -r <filename>.pcap
+   #+END_EXAMPLE
+* Bash scripting*
+  How to use tpm, pwgen and gpgp2
+  1. Create an encryption key
+  2. Generate the password
+  3. Store the password using gpg2
+
+
+
+* Service management with Runit
+** Starting, stopping, restarting services
+** Status of services
+** Enabling, disabling services
+* Package management
+** Installing, removing packages
+** Updating
+** Restricting versions
+** Add package repository
+** Custom installation of packages
+* Use setuid for an Executable
+** setgid
+* Performing a Packet Capture
+* The System Administrator's Guide to Bash Scripting
+** interactive, non-interactive
+** export
+** Exit status
+** tests
+** best practices
+* DNS Deep Dive
+* Git
+* SSH
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html#spot-instance-weighting
+* http://tech.adroll.com/blog/dev/ops/2018/10/15/x-marks-the-spot.html
+* What are my ThinkPad L540 specs?
+  - L540: 15.6" FHD (1920 x 1080), 15.6" FHD (1920 x 1080)
+  - L540: 5.5 lbs
+  - L440: Integrated, Intel® HD Graphics 4600 with HM86(non-vPro), and W
+    TPM, and W/Express card
+  - 4GB RAM
+  - Intel i5-4200M (4) @ 3.100GHz
+* How do you find out the keybinding for a particular function in Emacs
+C-h w <function name>
+* How to record and run macro in Emacs
+1. Start recording Ctrl-x (
+2. Do actions
+3. End recording Ctrl-x
+
+To run the macro:
+Ctrl-x e
