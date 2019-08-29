@@ -1,5 +1,6 @@
 #+TITLE: Reference
 #+DATE: <2019-08-10 Sat>
+#+TAGS: emacs linux
 
 * Mounting HFS+ volume on Linux
   https://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os 
