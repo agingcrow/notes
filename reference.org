@@ -74,3 +74,6 @@ C-h w <function name>
 
 To run the macro:
 Ctrl-x e
+
+* How do you select a snippet from list of yasnippets available in the major mode?
+C-c & C-s
