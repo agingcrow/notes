@@ -1,38 +1,47 @@
 #+TITLE: Reference
 #+DATE: <2019-08-10 Sat>
+#+STARTUP: align latextpreview hidestars indent hideblocks
+#+TAGS: emacs orgmode elisp car linux networking facts git ssh
+#+TAGS: aws english vim voidlinux mindset python dns math
+#+TAGS: fitness
 
-* Mounting HFS+ volume on Linux
-  https://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os 
+This file is meant house questions-answers, cookbooks and facts.
 
-  #+BEGIN_SRC sh
-sudo mount -t hfsplus -o force,rw /dev/sdb2 /mnt/seagate/
-  #+END_SRC
+* Mounting HFS+ volume on Linux :linux:
 
-* setuid
-  Run the program as if you are the owner
+https://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os 
 
-  find / -perm -0400 -ls
+#+BEGIN_SRC sh
+  sudo mount -t hfsplus -o force,rw /dev/sdb2 /mnt/seagate/
+#+END_SRC
 
-  List all the files that have suid
+* setuid :linux:
 
-* tcpdump
+Run the program as if you are the owner
 
+find / -perm -0400 -ls
+
+List all the files that have suid
+
+* tcpdump :networking:
 ** Record traffic
-   #+BEGIN_EXAMPLE sh
-   tcpdump port <port> -w <filename>.pcap
-   #+END_EXAMPLE
+
+#+BEGIN_EXAMPLE sh
+tcpdump port <port> -w <filename>.pcap
+#+END_EXAMPLE
 
 ** Read pcap file from recorded traffic
-   #+BEGIN_EXAMPLE sh
-   tcpdump -r <filename>.pcap
-   #+END_EXAMPLE
-* Bash scripting*
-  How to use tpm, pwgen and gpgp2
-  1. Create an encryption key
-  2. Generate the password
-  3. Store the password using gpg2
 
+#+BEGIN_EXAMPLE sh
+tcpdump -r <filename>.pcap
+#+END_EXAMPLE
 
+* How to use pwgen and gpg2
+
+How to use tpm, pwgen and gpgp2
+1. Create an encryption key
+2. Generate the password
+3. Store the password using gpg2
 
 * Service management with Runit
 ** Starting, stopping, restarting services
@@ -54,23 +63,398 @@ sudo mount -t hfsplus -o force,rw /dev/sdb2 /mnt/seagate/
 ** tests
 ** best practices
 * DNS Deep Dive
-* Git
-* SSH
-* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html#spot-instance-weighting
-* http://tech.adroll.com/blog/dev/ops/2018/10/15/x-marks-the-spot.html
-* What are my ThinkPad L540 specs?
-  - L540: 15.6" FHD (1920 x 1080), 15.6" FHD (1920 x 1080)
-  - L540: 5.5 lbs
-  - L440: Integrated, Intel® HD Graphics 4600 with HM86(non-vPro), and W
-    TPM, and W/Express card
-  - 4GB RAM
-  - Intel i5-4200M (4) @ 3.100GHz
-* How do you find out the keybinding for a particular function in Emacs
+* What are my ThinkPad L540 specs? :facts:
+
+- L540: 15.6" FHD (1920 x 1080), 15.6" FHD (1920 x 1080)
+- L540: 5.5 lbs
+- L440: Integrated, Intel® HD Graphics 4600 with HM86(non-vPro), and W
+  TPM, and W/Express card
+- 4GB RAM
+- Intel i5-4200M (4) @ 3.100GHz
+
+* How do you find out the keybinding for a particular function in Emacs :emacs:
+
 C-h w <function name>
-* How to record and run macro in Emacs
+
+* How to record and run macro in Emacs :emacs:
+
 1. Start recording Ctrl-x (
 2. Do actions
 3. End recording Ctrl-x
-
 To run the macro:
 Ctrl-x e
+
+* How to open file in other buffer in Emacs :emacs:
+
+C-x 4 b
+
+* How to hold package versions in Void Linux :voidlinux:
+
+xbps-pkgdb -m hold <pkg>
+
+xbps-query --list-hold-pkgs
+
+xbps-pkgdb -m repolock wpa_supplicant
+
+xbps-query --list-repolock-pkgs
+
+* How to turn on the engine remotely? :car:
+
+Hold unlock button for 5 seconds, then push Engine start button
+
+* Spot Fleet :aws:
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html#spot-instance-weighting
+
+http://tech.adroll.com/blog/dev/ops/2018/10/15/x-marks-the-spot.html
+
+* Narrowing and widening :emacs:
+
+Narrowing: Making a region in the buffer visible/editable and the rest
+hidden.
+
+Widening: Canceling the narrowing, and making the rest of the buffer
+visible again.
+
+** Narrowing
+*** Narrow to region
+
+C-x n n
+
+*** Narrow to current page
+
+C-x n p
+
+*** Narrow to current defun
+
+C-x n d
+
+** Widening
+
+C-x n w
+
+** Source
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Narrowing.html
+
+* STARTUP values :orgmode:
+
+| value          | description               |
+|----------------+---------------------------|
+| overview       | top-level headlines only  |
+| content        | all headlines             |
+| showall        | no folding of any entries |
+| showeverything | show even drawer contents |
+
+https://orgmode.org/manual/In_002dbuffer-settings.html
+
+* Structure editing
+
+https://orgmode.org/manual/Structure-editing.html
+
+* How to use iedit :emacs:
+** What it does
+
+It's useful for renaming variables or editing a
+recurring piece of text.
+
+** How it works
+
+1. Place point over a word
+2. Ctrl-;
+3. Do your edits
+4. Ctrl-; again
+
+** Example
+
+zero one two three
+
+seven eight nine zero
+
+zero zero ten eleven
+
+twelve
+
+* How to use dumb-jump :emacs:
+** What it does
+
+Jump to definition of function
+
+** How to use it
+
+| Keybinding | Description     |
+|------------+-----------------|
+| M-g o      | go other window |
+| M-g j      | go              |
+| M-g q      | quick look      |
+| M-g i      | go prompt       |
+
+* How do you jump back to your previous position with dumb-jump?
+* How do I get out of a frozen vim after doing Ctrl-S? :vim:
+
+Ctlr-q
+
+* How do you store configuration for youtube-dl? :linux:
+
+https://wiki.archlinux.org/index.php/Youtube-dl#Configuration
+
+* What are properties used for?
+
+https://orgmode.org/manual/Property-syntax.html#Property-syntax
+
+* What are drawers used for in org-mode
+
+https://orgmode.org/manual/Drawers.html#Drawers
+
+* What are org-mode agenda and TODO commands? :orgmode:
+
+| Keystrokes | Command                                            |
+|------------+----------------------------------------------------|
+| C-c a      | Agenda View Dispatcher                             |
+| C-c ]      | Remove current file from the list of agenda files. |
+| C-', C-,   | (org-cycle-agenda-files)                           |
+| C-c ,      | Set priority to task                               |
+| C-c C-d    | Set deadline                                       |
+| C-c C-s    | Schedule                                           |
+| C-c / d    | Check deadlines                                    |
+| C-c / b    | Check deadlines before date                        |
+| C-c / a    | Check deadlines after date                         |
+
+* How to do recurring tasks in org-mode? :orgmode:
+
+https://orgmode.org/manual/Repeated-tasks.html#Repeated-tasks
+
+* How to archive tasks? :orgmode:
+
+Ctrl-c $
+
+C-c C-x C-a
+
+* How do you archive a task internally? :orgmode:
+
+(Keep it within the same file)
+
+C-c C-x a
+
+* What are template expansions in org-capture-templates? :orgmode:
+
+https://orgmode.org/manual/Template-expansion.html#Template-expansion
+
+* How to push/pop text onto registers? :emacs:
+
+| Keybinding  | Value                         |
+|-------------+-------------------------------|
+| C-x r s 'r' | Copy text to register 'r'     |
+| C-x r i 'r' | Recall text from register 'r' |
+
+* How to do rectangle editing?                                        :emacs:
+1. Select a rectangle of text by setting the mark in rectangle-mode:
+   C-x <SPC>
+2. C-f until you draw the top part of the rectangle, then go down
+   (C-n) to draw the height of the rectangle.
+3. At this point, when you have the rectangle (region-rectangle)
+   selected and defined, you can perform a number of operations:
+   1. Kill it
+      C-x r k
+   2. Copy it (and Yank it)
+      C-x r M-w
+      C-x r y
+   3. Delete it
+      C-x r d
+   4. Replace it with whitespace (clearing it)
+      C-x r c
+   5. Push the text occupying the rectangle off with whitespace
+      C-x r o
+   6. Insert numbers next to the lines
+      C-x r N
+   7. Replace rectangle contents with specified string
+      C-x r t
+   8. Replace each line of the rectangle with specified string
+      M-x string-insert-rectangle <RET> string <RET>
+* How to refile a subtree to another headline? :orgmode:
+
+C-c C-w
+
+* How to jump to another headline? :orgmode:
+C-u C-c C-w
+
+* How to insert images in org-mode?                                   :emacs:
+* How to journal
+
+Source: https://www.youtube.com/watch?v=5G23x3x_iYU
+How to Adult video on How to journal
+
+1. Decide on what to Journal
+- what happened
+- status
+- work journal
+2. get the most out of your journal
+- process your emotions by writing them
+- effect -> cause -> action
+- vehicle for my sense of sensehood, create myself
+3. materials
+- what type of journal or pen
+- don't use a computer
+4. when to journal
+5. how much to journal
+- even a little bit can go a long way
+- 15-20 mins, 3-5 occasions
+
+* How to be more confident
+
+Source: https://www.youtube.com/watch?v=zMxgRlnLW6E
+How to Adult video on How to be more confident
+
+1. Confidence is knowing what you're good at, the value you provide,
+   and acting in a way that conveys that to others2
+2. Confidence = self-esteem + courage + optimism
+3. power pose, visualization of success
+4. uplifting music, bass-heavy tunes
+5. exercise and dress confidently
+6. growth mindset
+7. daily habit, envision a successful outcome
+8. be kind to yourself
+9. how much you can get hit and keep moving forward
+
+* How to wake up early
+
+Source: https://www.youtube.com/watch?v=AxzqY5lgePU
+How to Adult video on how to wake up early
+
+1. Start with the Why
+- Why do you want to wake up early
+- Think about what you're going to do with this extra time
+2. Wake up earlier gradully
+- 15 mins earlier than usual
+3. Put your alarm in the other side of the room
+4. 7-8 hours sleep
+wake up at 5
+sleep before 10
+- warm shower 30 mins before sleep
+5. Avoid stimulants
+- coffee, tea, cigarettes
+- 4-6 hours half-life 
+- certain foods
+- blue light, laptops, phones
+- screenless 2 hours before bed
+
+* How to avoid distractions
+
+- get distracted -> feel guilty -> worry about the future -> feel
+  powerless
+- use apps to help you
+- use 2 accounts: study/work, freetime
+- avoid checking stuff for 2 mins
+- clear your space, only necessary things
+- put your thoughts on paper: new ideas, reminders, worries
+- background music: deep focus on spotify
+- go outside and go for a walk
+- decide on one specific task, stop trying to convince yourself that
+  you can study with TV in the background
+- clean your space
+- low effort hack
+
+* Curl Cookbook
+
+https://catonmat.net/cookbooks/curl
+
+* Pick a yasnippet :emacs:
+
+C-c & C-s
+
+* Agenda view: Display today's tasks
+* Agenda view: Display weekly tasks
+* Agenda view: Search for archived tasks
+* Agenda view: Search for tags
+* Agenda view: Search for properties
+* MDX VIN                                                             :facts:
+
+5J8YD4H42KL805278
+
+* Gym workout                                                       :fitness:
+* How to use TRAMP in emacs?                                          :emacs:
+** Edit file remotely
+For SSH:
+C-x C-f /ssh:<username>:<host>:<path/to/file>
+
+If method is specified by default (for example, SSH):
+
+C-x C-f /<username>:<host>:<path/to/file>
+** Edit a file with sudo locally
+C-x C-f /sudo::/path/to/file
+
+** Edit a file with su or sudo remotely
+C-x C-f /ssh:username|sudo:host:/path/to/file RET
+
+** Hop from one server to another
+C-x C-f /ssh:username@host|ssh:username@remotehost:/path
+* How to use bookmarks in emacs?                                      :emacs:
+1. Save the position of the current file at point:
+   C-x r m
+   1. Alternatively, you can name the bookmark when saving:
+      C-x r m <name>
+   2. Or, ensure that the name you saved it with doesn't overwrite an
+      existing named bookmark:
+      C-x r M <name>
+2. Jump to the bookmark that you saved:
+   C-x r b <name>
+3. List all bookmarks:
+   C-x r l
+4. Save all bookmarks to the default file which is
+   =~/.emacs.d/bookmarks=
+* How to save text in registers?                                      :emacs:
+** Copy region into register r
+C-x r s r
+** Insert text from register r
+C-x r i r
+* What's a weighted average?                                           :math:
+1. series of figures
+2. each figure in the series has an assigned weight
+   (percentage/share)
+3. each figure then has a value assigned to it
+4. the values are multiplied against the percentage/shares
+5. and summed up to result in a weighted average
+
+https://en.wikipedia.org/wiki/Weighted_arithmetic_mean
+
+* Memorize grep options and features                                  :linux:
+* How to reload/refresh the buffer?                                   :emacs:
+M-x revert-buffer
+* How to do ansi-term commands?                                       :emacs:
+Source: https://www.gnu.org/software/emacs/manual/html_node/emacs/Term-Mode.html
+
+** Switch to line mode
+C-x C-j
+** Switch to char mode
+C-x C-k
+** Send a literal C-c
+C-x C-c
+* How to view processes in emacs?                                     :emacs:
+M-x proced
+* What is count-min sketch?                                            :math:
+https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch
+* How to use Dired in Emacs?                                          :emacs:
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html
+* How to use Imenu in Emacs?                                          :emacs:
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Imenu.html
+* What's the difference between mark and point?                       :emacs:
+- Point :: is the current location of the cursor
+- Mark :: is another position in the buffer whose value is set by
+          C-<SPC>
+
+* How to use Iedit in Emacs?                                          :emacs:
+1. Set the point over to the symbol you want to rename
+2. C-;
+3. Make the necessary edit to the symbol
+4. C-; to turn off iedit-mode
+
+** How to only run iedit on a defun
+1. Set the point over to the variable you want to rename
+2. C-;
+3. C-u 0
+4. C-;
+5. Make the necessary edit to the variable
+6. C-; to turn off iedit-mode
+
+* How to get help on a function in emacs?                             :emacs:
+C-h f

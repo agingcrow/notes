@@ -1,0 +1,109 @@
+
+Archived entries from file /home/craig/Documents/notes/tasks.org
+
+
+* Archived Tasks
+
+** DONE Transcribe to sapro.org
+SCHEDULED: <2019-08-27 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-08-31 Sat 18:57
+:ARCHIVE_FILE: ~/Documents/notes/tasks.org
+:ARCHIVE_OLPATH: PLANNED
+:ARCHIVE_CATEGORY: Tasks
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2019-08-31 Sat 11:04]--[2019-08-31 Sat 11:07] =>  0:03
+:END:
+
+** DONE Read MDX Owner's manual
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2019-08-31 Sat 18:57
+   :ARCHIVE_FILE: ~/Documents/notes/tasks.org
+   :ARCHIVE_OLPATH: PLANNED
+   :ARCHIVE_CATEGORY: Tasks
+   :ARCHIVE_TODO: DONE
+   :END:
+- [X] Auto-lock
+- [ ] Climate controls
+- [X] Turning on engine with remote key
+  
+  Hold unlock button for 5 seconds, then push Engine start button
+
+** DONE Wipe iMac for sale
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2019-09-01 Sun 08:52
+   :ARCHIVE_FILE: ~/Documents/notes/tasks.org
+   :ARCHIVE_OLPATH: PLANNED
+   :ARCHIVE_CATEGORY: Tasks
+   :ARCHIVE_TODO: DONE
+   :END:
+- [X] Record iMac stats (Mac OS X version, HD space, RAM, CPU, etc.)
+
+macOS Mojave
+iMac 21.5 inch, Late 2012
+Processor: 2.7 GHz Intel Core i5
+Memory: 8GB 1600 MHz DDR3
+Graphics NVIDIA GeForce GT 640M 512MB
+Serial Number: D25KD1DSDNML
+1TB Hard Drive
+
+- [X] Ask Hana to check if there's anything she needs to salvage off
+  of the iMac
+- [X] Boot Mac in recovery mode
+Hold down Command and R keys until you see Apple logo or spinning globe
+Option-Command-R
+- [X] Select Disk Utility
+- [X] Reinstall Mac OS X
+
+** DONE Clip nails
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-09-05 Thu 07:26
+:ARCHIVE_FILE: ~/Documents/notes/tasks.org
+:ARCHIVE_OLPATH: PLANNED
+:ARCHIVE_CATEGORY: Tasks
+:ARCHIVE_TODO: DONE
+:END:
+
+** DONE Keep Left CAPS LOCK to Ctrl, make right Ctrl CAPS LOCK
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-09-08 Sun 15:00
+:ARCHIVE_FILE: ~/Documents/notes/tasks.org
+:ARCHIVE_OLPATH: PLANNED
+:ARCHIVE_CATEGORY: Tasks
+:ARCHIVE_TODO: DONE
+:END:
+
+** DONE Write commands for Emacs
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-09-08 Sun 15:00
+:ARCHIVE_FILE: ~/Documents/notes/tasks.org
+:ARCHIVE_OLPATH: PLANNED
+:ARCHIVE_CATEGORY: Tasks
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2019-09-07 Sat 14:36]--[2019-09-07 Sat 15:01] =>  0:25
+:END:
+25 mins
+
+- [X] TRAMP
+- [X] Bookmarks
+- [X] Registers
+- [X] Rectangle editing
+- [X] ansi-term
+- [ ] Dired
+- [ ] Imenu
+
+** DONE Log onto Manulife to sort dental coverage issues
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-09-08 Sun 15:00
+:ARCHIVE_FILE: ~/Documents/notes/tasks.org
+:ARCHIVE_OLPATH: PLANNED
+:ARCHIVE_CATEGORY: Tasks
+:ARCHIVE_TODO: DONE
+:END:
+
+I forgot that I had opted out
+

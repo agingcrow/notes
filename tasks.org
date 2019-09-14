@@ -1,0 +1,509 @@
+#+TITLE: Tasks list
+#+TODO: TODO(t) STARTED(s) | CANCELLED(c) DONE(d)
+#+STARTUP: content indent hidestars align
+#+OPTIONS: toc:nil
+#+CATEGORY: Tasks
+
+* PLANNED
+:PROPERTIES:
+:ARCHIVE:  archived.org::* Archived Tasks
+:END:
+
+These are tasks that have been defined, scheduled, assigned a deadline
+or assigned a priority.
+
+** TODO Daily Habits challenge [0%]
+SCHEDULED: <2019-09-03 Tue +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2019-09-05 Thu 07:39]
+:END:
+- State "DONE"       from "TODO"       [2019-09-05 Thu 07:39]
+- State "DONE"       from "TODO"       [2019-09-03 Tue 17:59]
+- State "DONE"       from "TODO"       [2019-09-02 Mon 21:40]
+- State "DONE"       from "STARTED"    [2019-08-31 Sat 23:05]
+- State "DONE"       from "TODO"       [2019-08-30 Fri 23:26]
+- State "DONE"       from "TODO"       [2019-08-28 Wed 18:27]
+- State "DONE"       from "TODO"       [2019-08-27 Tue 21:40]
+- [ ] Meditate for 5 mins everyday
+- [ ] Memorize verses
+Isaiah 40:28
+#+BEGIN_VERSE
+Have you not known? Have you not heard?    
+The Lord is the everlasting God,           
+the Creator of the ends of the earth.      
+He does not faint or grow weary;           
+his understanding is unsearchable.
+#+END_VERSE
+
+- [ ] No Netflix, Youtube
+- [ ] No Social media
+- [ ] No xv
+- [X] Do nasal rinse
+- [ ] Emacs habits:
+  - Use iedit to rename variables
+  - Use dumb-jump to jump to definitions
+  - Use ace-window
+  - Use counsel-ag
+  - Use dired
+  - Use rectangle editing
+  - Use narrowing and widening
+  - Use TRAMP
+- [ ] Stand up for yourself
+- [ ] Stop beating yourself up
+- [ ] Be aware of anger, feeling rushed, anxiety
+- [ ] Stop swearing
+- [ ] Be kind to yourself
+- [ ] Don't mistreat other humans
+
+** TODO Daily Goals challenge
+SCHEDULED: <2019-09-03 Tue +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2019-09-03 Tue 17:59]
+:END:
+- State "DONE"       from "TODO"       [2019-09-03 Tue 17:59]
+- State "DONE"       from "TODO"       [2019-09-02 Mon 21:40]
+- State "DONE"       from "TODO"       [2019-09-01 Sun 08:51]
+
+**** Be better at Time management
+
+- [ ] Timebox tasks
+- [ ] Create a plan
+- [ ] Use a calendar
+
+**** Be better at Self-control
+**** Increase Concentration, focus, attention span
+**** Be Careful, precise, effective, not tired or careless
+**** Do not be Panicked, frustrated, easily angered
+
+Don't drink coffee, it makes you angry and have poor self-control
+**** Pray more
+** TODO Watch Linux Academy video lectures (3 hours)
+SCHEDULED: <2019-09-04 Wed +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2019-09-07 Sat 22:04]
+:END:
+- State "DONE"       from "STARTED"    [2019-09-07 Sat 22:04]
+- State "DONE"       from "TODO"       [2019-09-05 Thu 07:39]
+- State "DONE"       from "STARTED"    [2019-09-02 Mon 21:40]
+:LOGBOOK:
+CLOCK: [2019-09-08 Sun 17:16]--[2019-09-08 Sun 17:41] =>  0:25
+CLOCK: [2019-09-07 Sat 20:32]--[2019-09-07 Sat 20:57] =>  0:25
+CLOCK: [2019-09-07 Sat 17:46]--[2019-09-07 Sat 18:11] =>  0:25
+CLOCK: [2019-09-01 Sun 17:55]--[2019-09-01 Sun 18:20] =>  0:25
+CLOCK: [2019-09-01 Sun 16:35]--[2019-09-01 Sun 17:00] =>  0:25
+CLOCK: [2019-09-01 Sun 15:54]--[2019-09-01 Sun 16:19] =>  0:25
+:END:
+
+** TODO Spend 1 hour just do a quick survey
+
+- pick out chapters you like from each book
+- do a scan of the chapters
+- make notes
+
+- [ ] Scala and Spark For Big Data Analytics ([[file:../9781785280849-SCALA_AND_SPARK_FOR_BIG_DATA_ANALYTICS.pdf][PDF]])
+- [ ] Hadoop Architecture and Deployment ([[file:../9781787126732-HADOOP_2X_ADMINISTRATION_COOKBOOK.pdf][PDF]])
+- [ ] Architecting Data-Intensive Applications ([[file:../9781786465092-ARCHITECTING_DATAINTENSIVE_APPLICATIONS.pdf][PDF]])
+- [ ] Effective DevOps with AWS ([[file:../effective_devops_with_aws.pdf][PDF]])
+
+* UNPLANNED
+
+These are tasks that I did not plan on doing and that popped out of
+nowhere.
+
+* DEFINED
+
+These are tasks that I'd like to do, but have not been scheduled or
+given a priority.
+
+** How does hibernate (ZZZ) works
+** How does dbus work?
+
+Why does restart dbus mess up sound?
+
+https://en.wikipedia.org/wiki/D-Bus
+
+** Learn to use fd and rg
+** What is initramfs?
+
+https://en.wikipedia.org/wiki/Initial_ramdisk
+
+** What is tail call recursion and tail call optimization?
+
+https://en.wikipedia.org/wiki/Tail_call
+
+** Memorize Bible verses
+
+- [X] Romans 3:21-26
+
+#+BEGIN_VERSE
+21
+But now the righteousness of God
+apart from the law
+is revealed,
+being witnessed by the Law and the Prophets
+
+22
+even the righteousness of God,
+through faith in Jesus Christ,
+to all and on all who believe.
+For there is no difference;
+
+23
+For all have sinned and fall short of the glory of God,
+
+24 being justified freely by His grace
+through the redemption that is in Christ Jesus
+
+25
+whom God set forth
+as a propitiation by His blood,
+through faith,
+to demonstrate His righteousness,
+because in His forbearance
+God had passed over the sins
+that were previously committed,
+
+26
+to demonstrate at the present time
+His righteousness,
+that He might be just and the justifier of the one
+who has faith in Jesus.
+#+END_VERSE
+
+- [X] Isaiah 9:6
+
+  #+BEGIN_VERSE
+  For unto us a Child is born,
+  Unto us a Son is given;
+  And the government will be upon His shoulder.
+  And His name will be called
+  Wonderful, Counselor, Mighty God,
+  Everlasting Father, Prince of Peace.
+  #+END_VERSE
+
+- [ ] Isaiah 40:28
+    
+#+BEGIN_VERSE
+Have you not known? Have you not heard?
+The Lord is the everlasting God,
+the Creator of the ends of the earth.
+He does not faint or grow weary;
+his understanding is unsearchable.
+#+END_VERSE
+
+
+- Genesis 1:1
+- John 3:16-17
+- Romans 3:23
+- Romans 6:23
+- Revelation 3:20
+- John 14:6
+- Ephesians 2:8,9
+- 2 Corinthians 5:17
+- Romans 8:28
+- Isaiah 40:30-31
+- Romans 8:38-39
+- Matthew 11:28-30
+- Psalm 27:1
+- Jeremiah 29:11
+- Hebrews 13:8
+- Hebrews 13:8
+- Lamentations 3:22-23
+- 2 Corinthians 12:9
+- 2 Corinthians 4:18
+- Psalm 37:4,5
+- Proverbs 3:5,6
+- Philippians 4:13
+- Galatians 2:20
+- James 1:22
+- Colossians 3:23
+- 1 Corinthians 15:58
+- James 4:7
+- Luke 16:13
+- 1 John 4:7,8
+- Galatians 5:22-23
+- Hebrews 12:1-2
+- Acts 1:8
+- Romans 12:1-2
+- 1 Thessalonians 5:18
+- Psalm 19:14
+- Philippians 4:6,7
+- 2 Timothy 3:16
+- Psalm 119:105
+- Psalm 119:11
+- Hebrews 4:16
+- 1 John 1:9
+- James 5:16
+  1 Corinthians 10:13
+  - Micah 6:8
+  - Micah 6:8
+  - Matthew 28:19-20
+  - Matthew 5:16
+  - Ephesians 6:12
+
+** Read Pocket articles
+*** Initial ramdisk
+*** Disk partitioning
+** Read Architecting Data-Intensive Applications
+** Create runit service for emacs --daemon
+
+https://wiki.voidlinux.org/Runit#Enabling_new_services
+
+/etc/sv/emacs/run
+
+emacs --daemon
+
+** Write an article about Vkpurge on Github
+
+https://wiki.voidlinux.org/Vkpurge
+
+** Hardening of void linux laptop
+
+https://wiki.voidlinux.org/Firewall_Guide
+
+** Read Land of Lisp
+** Set up SLIME
+
+- https://common-lisp.net/project/slime/
+- Marco Baringer's SLIME Screencast (2005)
+- Watch SLIME videos
+
+** Watch videos on Agenda mode
+** Inspect car seat installation
+** Figure out Climate Controls in MDX
+** Figure out how to set up mu4e in Emacs
+
+https://www.reddit.com/r/emacs/comments/3s5fas/which_email_client_mu4e_mutt_notmuch_gnus_do_you/
+https://www.emacswiki.org/emacs/mu4e
+https://www.youtube.com/watch?v=newRHXKm4H4
+https://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/
+
+** Sync using Google Drive or Dropbox for org notes
+** How to narrow multiple regions?
+** How to use tramp?
+** DNS Deep Dive Pluralsight
+** Redshift Pluralsight course
+** Do concentration exercises
+
+https://www.stylecraze.com/articles/simple-concentration-exercises/
+https://www.artofmanliness.com/articles/your-concentration-training-program-11-exercises-that-will-strengthen-your-attention/
+https://www.successconsciousness.com/index_000005.htm
+
+*** Exercise 1
+
+Take a book or a magazine and count the number of words in a single
+paragraph. Count them again to ensure that you have counted
+correctly. You can start off with one paragraph and as you get used to
+it, move on to counting words in two paragraphs. Then move on to
+counting words on the whole page. Make sure that you perform the
+counting mentally and only with your eyes without pointing your finger
+at each word. This is one of the simplest brain exercises to improve
+concentration.
+
+*** Exercise 2
+
+Another exercise to increase concentration is count backwards in your
+mind from hundred to one. Once you have mastered this, move on to
+counting backwards from hundred to one but this time skipping three
+numbers such as 100, 97, 94, 91, 88 etc.
+
+*** Exercise 3
+
+Select an inspiring word or just a simple sound and think about it in
+your mind, repeating it in your mind for 5 minutes. Once your mind has
+begun to concentrate on it easily, move on to 10 minutes of
+uninterrupted concentration.
+
+*** Exercise 4
+
+Try to suppress your thoughts for at least 5 minutes. This appears
+pretty tough, but with regular practice, you can do it. Start off with
+one minute and gradually increase the length of time. Try your best to
+stay blank for 5 minutes without a single thought in your mind. This
+will take time, but gradually you will improve and thus your
+concentration will also excel. Don’t try to push yourself if you find
+it difficult initially. Just try to give your best. Once you are
+finished with it, stop and try again the next day. This is one of the
+most difficult exercise for concentration.
+
+
+https://blog.sandglaz.com/the-science-behind-concentration/
+https://www.inc.com/jory-mackay/sciences-says-these-7-attention-exercises-will-make-you-more-focused-right-now.html
+https://www.crowdspring.com/blog/scientifically-proven-ways-improve-focus-concentration/
+https://www.artofmanliness.com/articles/how-to-strengthen-willpower/
+https://www.artofmanliness.com/articles/12-concentration-exercises-from-1918/
+
+
+https://www.artofmanliness.com/articles/listen-up-part-ii-15-techniques-to-improve-our-listening/
+
+** Emacs reading
+
+- [ ] https://github.com/emacs-lsp/lsp-mode#why
+- [ ] https://www.gnu.org/software/emacs/manual/html_node/emacs/Imenu.html
+- [ ] https://emacsredux.com/blog/2013/06/13/using-emacs-as-a-database-client/
+- [ ] http://tuhdo.github.io/emacs-tutor.html
+
+** Learn how to write Cron jobs, practice
+** Linux Foundation Certified SysAdmin
+*** List, Create, Delete, and Modify Physical Storage Partitions
+
+lsblk
+
+fdisk
+
+*** Bootloader
+
+/boot/grub/grub.cfg
+This file is automatically generated by update-grub
+
+Write this file base on configuration in =/etc/default/grub=
+
+/etc/grub.d has all the scripts that the bootloader
+
+/etc/default/grub
+
+** Verse Memorization App concept
+*** Name
+
+- versefriends
+- memverse.com
+- myverses
+
+*** Concept
+
+1. You pick verses that you want to memorize, which translation, which
+   language, etc.
+2. You can disable punctuation, case-sensitivity, American vs. British
+   orthography relaxation
+3. You type them into a textarea and you get "marked"
+   dynamically/real-time
+4. If you get the verses right over a certain threshold (let's say
+   90%), then you can post these verses on a twitter-like feed
+5. It will automatically remind you and quiz you everyday which verses
+   you have to type in--there is some scheduling.
+6. You get ranked like in Duolingo
+- typing speed
+- how many verses you get right
+
+*** Behind the scenes
+
+- It stores diffs of the original verse
+
+*** Two types of accounts
+
+- private accounts with no names
+- Named accounts
+
+*** Access
+
+- android app
+- IOS app
+
+** xbps (X Binary Package System)
+*** How to install a package?
+
+=-S= Synchronize remote repository index files
+
+#+BEGIN_SRC sh
+ xpbs-install -S
+#+END_SRC
+
+*** How to uninstall a package?
+
+#+BEGIN_SRC sh
+ xbps-remove <package>
+#+END_SRC
+
+*** How to uninstall a package and all its dependencies (that are not dependencies of other packages)?
+
+=-R= Recursively remove package and alls its dependencies
+
+#+BEGIN_SRC sh
+ xbps-remove -R <package>
+#+END_SRC
+
+*** How to search for a package in the repository
+
+=-R= looks in Repository as opposed to the locally installed packages
+=-s= search for pattern
+#+BEGIN_SRC sh
+ xbps-query -Rs <query string>
+#+END_SRC
+
+*** How to list installed packages?
+
+=-l= Lists registered packages in the package database (pkgdb)
+#+BEGIN_SRC sh
+ xbps-query -l
+#+END_SRC
+
+*** How to reconfigure a package (even if it had already been configured)?
+
+=-f= By default, it will only reconfigure a package if it hasn't been configured. -f forces reconfiguration.
+#+BEGIN_SRC sh
+ xbps-reconfigure -f <package>
+#+END_SRC
+
+*** Updating the system
+
+=-S= Synchronize the repository
+=-u= Update the system
+#+BEGIN_SRC sh
+ xbps-install -Su
+#+END_SRC
+
+** TODO runit
+
+https://voidlinux.org/usage/runit/
+
+** Understand what CPU load is
+** How to replace pedals on bike?
+** Go hiking nearby
+
+- Burnaby mountain
+- Robert Burnaby park
+
+** Bike route near me
+
+- Deer lake to BCIT up moscrop
+
+** Cookbook and yasnippet templates for
+
+- Docker
+- Docker-compose
+- Terraform
+- Ansible
+
+** TODO How to archive all DONE tasks in one keystroke
+** TODO Read Art of Road Bike Maintenance
+** TODO Research Nexus pass
+** TODO Make tacos
+SCHEDULED: <2019-09-02 Mon>
+
+- [ ] Buy tortillas from El Cocal
+- [ ] white onion
+- [ ] cilantro
+- [ ] serrano or jalapeño
+- [ ] meat
+
+** Copy down all Benefits information into facts
+** How to use iedit?
+** How to do DevOps in Emacs?
+
+- ansible-mode
+- terraform-mode
+- aws-ec2
+- aws snippets
+
+** How to start an editorconfig configuration?
+** TODO Complete Agenda View and Capture setup
+:LOGBOOK:
+CLOCK: [2019-08-31 Sat 18:02]--[2019-08-31 Sat 18:27] =>  0:25
+:END:
+- [X] https://sachachua.com/blog/2015/02/learn-take-notes-efficiently-org-mode/
+- [X] https://orgmode.org/manual/Capture-templates.html#Capture-templates
+- [X] http://pragmaticemacs.com/emacs/a-shortcut-to-my-favourite-org-mode-agenda-view/
+- [X] https://blog.aaronbieber.com/2016/01/30/dig-into-org-mode.html
+- [ ] https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html
+- [ ] http://doc.norang.ca/org-mode.html#ArchivingSubtrees
+
