@@ -4,6 +4,8 @@
 #+TAGS: emacs orgmode elisp car linux networking facts git ssh
 #+TAGS: aws english vim voidlinux mindset python dns math
 #+TAGS: fitness
+=======
+#+TAGS: emacs linux
 
 This file is meant house questions-answers, cookbooks and facts.
 
@@ -458,3 +460,6 @@ https://www.gnu.org/software/emacs/manual/html_node/emacs/Imenu.html
 
 * How to get help on a function in emacs?                             :emacs:
 C-h f
+=======
+* How do you select a snippet from list of yasnippets available in the major mode?
+C-c & C-s
